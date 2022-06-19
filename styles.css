@@ -1,14 +1,150 @@
-#salmonCookie {
-    height: 150px;
-    width: ;
-    margin-bottom: 50px;
-    ;
+body {
+    margin: 20px;
+    background-color:;
+
+}
+
+header {
+    background-color: aqua;
+    margin-;
+
+}
+
+#div-header-left {
+    border: 325px;
+    height:;
+    /* border: thin green solid; */
+}
+
+#div-header-logo {
+    position: relative;
+    display: flex;
+    height: 125px;
+    width: 300px;
+    /* border: thin solid red; */
+}
+
+
+#logo-home {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 275px;
+    /* border: thin solid blue; */
+    margin: 10px;
+    margin-left: 10px;
+
+}
+
+#div-header-text {
+    position: relative;
+    display: flex;
+    margin-left: 40px;
+    /* border: thick solid red; */
+
+   
 }
 
 h1 {
-    text-align: center;
+    display:inline;
+    width: 45;
+
+
 }
 
+/* -----------MAIN------------ */
+
+main {
+    background-color: rgb(13, 187, 187);
+}
+
+#div-main {
+    display: flex;
+    position: relative;
+    /* border: thin solid purple; */
+}
+
+#div-main-img {
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 900px;
+    /* border: thin solid green; */
+}
+
+#main-img {
+    display: flex;
+    position: relative; 
+    margin:auto;
+    border-radius: 10px;
+    border: thin solid grey;
+
+}
+
+.div-main-area {
+    width: 300px;
+    position: relative;
+    border:  solid rgb(9, 2, 22);
+    background-color: gray;
+    border-radius: 10px;
+    margin: 15px;
+
+
+}
+
+#leftarea {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+    p, ul {
+        margin: 40px;
+    }
+
+#hourscontact {
+    font-size: 22px;
+}
+
+#aboutus {
+    margin-left: 75px;
+    font-size: 25px;
+
+}
+
+#div-fourimages {
+    /* border: thin solid red;
+    background-color: aquamarine; */
+    
+}
+
+.fourimages {
+    margin: 20px;
+}
+
+#fishshirt {
+    position: relative;
+    float:left;
+    margin-left: 300px;    
+}
+#fishcutter {
+    position: relative;
+    float: left;
+}
+#fishcookie {
+    position: relative;
+    float: left;
+}
+#fishpic {
+    position: relative;
+    /* float: left; */
+    border-radius: 10%;
+}
+
+footer {
+    background-color: grey;
+}
+
+/* --------SALES PAGE--------------- */
 table {
     border: thin black solid;
     margin-left: 30px;
