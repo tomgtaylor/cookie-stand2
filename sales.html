@@ -16,13 +16,39 @@
 
         <img id="salmonCookie" src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png">
         
-        <table id="cookieResults"></table>
+        <table id="cookieResults"></table> <br>
+
+        <fieldset>
+            <h2>Add a New Cookie Shop</h2>
+            <form id="newShopForm">
+                    <label for="shopName">Enter the shop's location:</label>
+                    <input type="text" id="shopName" name="shopName" required> <br>
+
+                    <label for="minCustomersPerHour">Enter min number of customers / hour:</label>
+                    <input  id="minCustomersPerHour" name="minCustomersPerHour" required> <br>
+
+                    <label for="maxCustomersPerHour">Enter max number of customers / hour:</label>
+                    <input  id="maxCustomersPerHour" name="maxCustomersPerHour" required> <br>
+
+                    <label for="avgCookiesSoldPerCust">Enter avg number of cookies sold / customer:</label>
+                    <input  id="avgCookiesSoldPerCust" name="avgCookiesSoldPerCust" required> <br>
+
+                    <button type="submit">Submit</button>
+            </form>    
+        </fieldset>
 
         <a href="index.html">Home</a>
         <script src="app.js"></script>
     </body>
     
     </html>
+
+    <!-- <fieldset>
+        <form>
+            <label></label>
+            <input>
+        </form>
+    </fieldset> -->
 
     <!-- <table id="cookieResults">
     </table> -->

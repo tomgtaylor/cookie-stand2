@@ -85,7 +85,7 @@ function renderFooterRow(){
     let emptyCell = document.createElement('td');
     tableFooterRow.appendChild(emptyCell);
         // This should give us each hour for each location, and addes all the numbers.
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < openHours.length; i++) {
         let sum = 0;
         for (let x = 0; x < CookieStore.all.length; X++);{
         sum += CookieStore.all[x].cookiesPerHour[i];
